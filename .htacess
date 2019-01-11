@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} www.kyro.com.au
-RewriteRule (.*) https://kyro.com.au/$1 [R=301,L]
