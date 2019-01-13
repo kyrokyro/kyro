@@ -261,7 +261,7 @@ img {
     height: 1000px;
 }
 
-
+/*
 @media (max-height: 550px) {
     .h-sm,
     .h-md,
@@ -279,7 +279,7 @@ img {
         height: auto;
     }
 }
-
+*/
 
 .row.with-sep > *:not(:last-child):after {
     position: absolute;
