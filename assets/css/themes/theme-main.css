@@ -5224,7 +5224,7 @@ html.locked-scrolling body {
     font-size: 0.85rem;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
-    padding: 0.9rem 1.75rem;
+    padding: 0.9rem;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
