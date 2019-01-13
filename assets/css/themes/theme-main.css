@@ -4928,14 +4928,7 @@ html.locked-scrolling body {
 }
 
 .bg-contact-animated {
-    background: #292929;
-    background-size: 250% 100%;
-    background-position: 0% center;
-    -webkit-animation: gradientAnimation 20s ease infinite;
-    -moz-animation: gradientAnimation 20s ease infinite;
-    -ms-animation: gradientAnimation 20s ease infinite;
-    -o-animation: gradientAnimation 20s ease infinite;
-    animation: gradientAnimation 20s ease infinite;
+    background: #e8eccf;
 }
 
 .bg-dark-animated {
