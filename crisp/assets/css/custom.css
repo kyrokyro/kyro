@@ -37,6 +37,7 @@ body {
     padding: 6%;
 }
 
-.decoration.far-left {
+.decoration.hero-app {
     left: -370px;
+    top: -200px;
 }
