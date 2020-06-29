@@ -3,10 +3,6 @@
 body {
 	  font-family: "Roboto", sans-serif;
 }
-a {
-	font-weight: 400;
-	text-decoration: underline;
-}
 .display-1, .display-2, .display-3, .display-4 {
 	font-family: "Questrial", sans-serif;
 	font-weight: 400;
