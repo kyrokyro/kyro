@@ -34,7 +34,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-}
+  --font-family-sans-serif: 'Roboto', 'Questrial' sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
 *::before,
@@ -303,7 +304,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 1rem;
-  font-family: inherit;
+  font-family: 'Questrial';
   font-weight: 600;
   line-height: 1.2;
   color: #212529; }
