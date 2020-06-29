@@ -4843,7 +4843,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important; }
 
 .bg-dark {
-  background-color: #212529 !important; }
+  background-color: #000000 !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -8354,7 +8354,7 @@ svg.bg-light-alt * {
   fill: white; }
 
 svg.bg-dark * {
-  fill: #212529; }
+  fill: #000000; }
 
 svg.bg-dark-alt * {
   fill: #f2f2f2; }
