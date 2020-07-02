@@ -1,7 +1,7 @@
 /*  Custom Styles */
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .display-1,
@@ -19,6 +19,10 @@ body {
 
 .bg-black {
     background-color: #000;
+}
+
+.btn-black > .icon path {
+    fill: #000;
 }
 
 .btn-spring {
@@ -49,4 +53,8 @@ body {
 
 .bg-talk {
     background-color: #070707;
+}
+
+.m-footer {
+    margin-bottom: 300px
 }
