@@ -21,6 +21,10 @@ body {
     background-color: #000;
 }
 
+.bg-spring {
+    background-color: #24EBAF !important;
+}
+
 .btn-black > .icon path {
     fill: #000;
 }
