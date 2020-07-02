@@ -47,13 +47,6 @@ body {
     top: -220px;
 }
 
-.bg-primary-animated {
-    background-image: linear-gradient(to right, #40fe98 0%, #ffb100 100%);
-    background-size: 250% 100%;
-    background-position: 0% center;
-    -webkit-animation: gradientAnimation 20s ease infinite;
-    -moz-animation: gradientAnimation 20s ease infinite;
-    -ms-animation: gradientAnimation 20s ease infinite;
-    -o-animation: gradientAnimation 20s ease infinite;
-    animation: gradientAnimation 20s ease infinite;
+.bg-talk {
+    background-color: #070707;
 }
