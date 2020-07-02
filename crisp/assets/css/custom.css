@@ -58,13 +58,3 @@ body {
 .bg-talk {
     background-color: #070707;
 }
-
-.navbar {
-    border-bottom: 0;
-    width: 100%;
-}
-
-.navbar[data-sticky="top"].scrolled.navbar-dark {
-    background: #000;
-    border-bottom: 0;
-}
