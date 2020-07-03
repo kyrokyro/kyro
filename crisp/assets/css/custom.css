@@ -58,3 +58,17 @@ body {
 .bg-talk {
     background-color: #070707;
 }
+
+.btn-white {
+    background: #fff;
+    color: #000;
+}
+
+.btn-white > .icon path {
+    fill: #000;
+}
+
+.btn-white:hover {
+    color: #000;
+    background: rgba(255, 255, 255, 0.9);
+}
