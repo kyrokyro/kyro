@@ -69,3 +69,19 @@ body {
     color: #000;
     background: rgba(255, 255, 255, 0.9);
 }
+
+.bg-primary-alt {
+    background: #f5f5f5 !important;
+}
+
+svg.bg-primary-alt * {
+    fill: #f5f5f5 !important;
+}
+
+.bg-light {
+    background: #fafafa !important;
+}
+
+svg.bg-light * {
+    fill: #fafafa !important;
+}
