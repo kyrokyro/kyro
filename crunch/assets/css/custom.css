@@ -56,6 +56,11 @@ body {
     background-color: #0ef6cb;
 }
 
+.bg-header {
+    background: rgb(15, 0, 60);
+    background: linear-gradient(80deg, rgba(15, 0, 60, 1) 0%, rgba(67, 9, 121, 1) 74%, rgba(0, 255, 204, 1) 100%);
+}
+
 .btn-white {
     background: #fff;
     color: #000;
