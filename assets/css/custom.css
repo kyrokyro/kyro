@@ -57,6 +57,14 @@ body {
     background-color: #070707;
 }
 
+.bg-cream {
+    background-color: #F2F3E2;
+}
+
+svg.bg-cream * {
+    fill: #F2F3E2 !important;
+}
+
 .btn-white {
     background: #fff;
     color: #000;
