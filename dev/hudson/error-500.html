@@ -9,18 +9,16 @@
     <title>Error 500 | Front - Admin &amp; Dashboard Template</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <!-- Font -->
-    <link href="@@vars.googleFont" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- CSS Implementing Plugins -->
-    <!-- bundlecss:vendor [@@autopath] -->
-    <link rel="stylesheet" href="@@autopath/assets/vendor/icon-set/style.css">
+    <link rel="stylesheet" href="./assets/vendor/icon-set/style.css">
 
     <!-- CSS Front Template -->
-    <!-- bundlecss:theme [@@autopath] @@vars.version -->
-    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
   </head>
 
   <body>
@@ -29,14 +27,14 @@
       <!-- Content -->
       <div class="container">
         <a class="position-absolute top-0 left-0 right-0" href="index.html">
-          <img class="avatar avatar-xl avatar-4by3 avatar-centered" src="@@autopath/assets/svg/logos/logo.svg" alt="Image Description">
+          <img class="avatar avatar-xl avatar-4by3 avatar-centered" src="./assets/svg/logos/logo.svg" alt="Image Description">
         </a>
 
         <div class="footer-height-offset d-flex justify-content-center align-items-center flex-column">
           <div class="row align-items-sm-center w-100">
             <div class="col-sm-6">
               <div class="text-center text-sm-right mr-sm-4 mb-5 mb-sm-0">
-                <img class="w-60 w-sm-100 mx-auto" src="@@autopath/assets/svg/illustrations/think.svg" alt="Image Description" style="max-width: 15rem;">
+                <img class="w-60 w-sm-100 mx-auto" src="./assets/svg/illustrations/think.svg" alt="Image Description" style="max-width: 15rem;">
               </div>
             </div>
 
@@ -71,18 +69,17 @@
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
 
-    <!-- JS Global Compulsory @@deleteLine:build -->
-    <script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
-    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Global Compulsory  -->
+    <script src="./assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- JS Front -->
-    <!-- bundlejs:theme [@@autopath] -->
-    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="./assets/js/theme.min.js"></script>
 
     <!-- IE Support -->
     <script>
-      if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/assets/vendor/babel-polyfill/polyfill.min.js"><\/script>');
+      if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="./assets/vendor/babel-polyfill/polyfill.min.js"><\/script>');
     </script>
   </body>
 </html>

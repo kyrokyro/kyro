@@ -9,24 +9,22 @@
     <title>Basic Sign In | Front - Admin &amp; Dashboard Template</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <!-- Font -->
-    <link href="@@vars.googleFont" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- CSS Implementing Plugins -->
-    <!-- bundlecss:vendor [@@autopath] -->
-    <link rel="stylesheet" href="@@autopath/assets/vendor/icon-set/style.css">
+    <link rel="stylesheet" href="./assets/vendor/icon-set/style.css">
 
     <!-- CSS Front Template -->
-    <!-- bundlecss:theme [@@autopath] @@vars.version -->
-    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
   </head>
 
     <body>
       <!-- ========== MAIN CONTENT ========== -->
       <main id="content" role="main" class="main">
-        <div class="position-fixed top-0 right-0 left-0 bg-img-hero" style="height: 32rem; background-image: url(@@autopath/assets/svg/components/abstract-bg-4.svg);">
+        <div class="position-fixed top-0 right-0 left-0 bg-img-hero" style="height: 32rem; background-image: url(./assets/svg/components/abstract-bg-4.svg);">
           <!-- SVG Bottom Shape -->
           <figure class="position-absolute right-0 bottom-0 left-0">
             <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1921 273">
@@ -39,7 +37,7 @@
         <!-- Content -->
         <div class="container py-5 py-sm-7">
           <a class="d-flex justify-content-center mb-5" href="index.html">
-            <img class="z-index-2" src="@@autopath/assets/svg/logos/logo.svg" alt="Image Description" style="width: 8rem;">
+            <img class="z-index-2" src="./assets/svg/logos/logo.svg" alt="Image Description" style="width: 8rem;">
           </a>
 
           <div class="row justify-content-center">
@@ -57,7 +55,7 @@
 
                       <a class="btn btn-lg btn-block btn-white mb-4" href="#">
                         <span class="d-flex justify-content-center align-items-center">
-                          <img class="avatar avatar-xss mr-2" src="@@autopath/assets/svg/brands/google.svg" alt="Image Description">
+                          <img class="avatar avatar-xss mr-2" src="./assets/svg/brands/google.svg" alt="Image Description">
                           Sign in with Google
                         </span>
                       </a>
@@ -123,16 +121,16 @@
                 <div class="w-85 mx-auto">
                   <div class="row justify-content-between">
                     <div class="col">
-                      <img class="img-fluid" src="@@autopath/assets/svg/brands/gitlab-gray.svg" alt="Image Description">
+                      <img class="img-fluid" src="./assets/svg/brands/gitlab-gray.svg" alt="Image Description">
                     </div>
                     <div class="col">
-                      <img class="img-fluid" src="@@autopath/assets/svg/brands/fitbit-gray.svg" alt="Image Description">
+                      <img class="img-fluid" src="./assets/svg/brands/fitbit-gray.svg" alt="Image Description">
                     </div>
                     <div class="col">
-                      <img class="img-fluid" src="@@autopath/assets/svg/brands/flow-xo-gray.svg" alt="Image Description">
+                      <img class="img-fluid" src="./assets/svg/brands/flow-xo-gray.svg" alt="Image Description">
                     </div>
                     <div class="col">
-                      <img class="img-fluid" src="@@autopath/assets/svg/brands/layar-gray.svg" alt="Image Description">
+                      <img class="img-fluid" src="./assets/svg/brands/layar-gray.svg" alt="Image Description">
                     </div>
                   </div>
                 </div>
@@ -145,20 +143,17 @@
       </main>
       <!-- ========== END MAIN CONTENT ========== -->
 
-      <!-- JS Global Compulsory @@deleteLine:build -->
-      <script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
-      <script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
-      <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- JS Global Compulsory  -->
+      <script src="./assets/vendor/jquery/dist/jquery.min.js"></script>
+      <script src="./assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+      <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
       <!-- JS Implementing Plugins -->
-      <!-- bundlejs:vendor [@@autopath] -->
-      <script src="@@autopath/assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"></script>
-      <script src="@@autopath/node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+      <script src="./assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"></script>
+      <script src="./assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
 
       <!-- JS Front -->
-      <!-- bundlejs:theme [@@autopath] -->
-      <script src="@@autopath/assets/js/hs.core.js"></script>
-      <script src="@@autopath/assets/js/hs.validation.js"></script>
+      <script src="./assets/js/theme.min.js"></script>
 
       <!-- JS Plugins Init. -->
       <script>
@@ -177,7 +172,7 @@
 
       <!-- IE Support -->
       <script>
-        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/assets/vendor/babel-polyfill/polyfill.min.js"><\/script>');
+        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="./assets/vendor/babel-polyfill/polyfill.min.js"><\/script>');
       </script>
     </body>
 </html>

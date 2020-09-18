@@ -9,18 +9,16 @@
   <title>Overlay Container - Content Combinations - Layouts | Front - Admin &amp; Dashboard Template</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+  <link rel="shortcut icon" href="../favicon.ico">
 
   <!-- Font -->
-  <link href="@@vars.googleFont" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <!-- bundlecss:vendor [@@autopath] -->
-  <link rel="stylesheet" href="@@autopath/assets/vendor/icon-set/style.css">
+  <link rel="stylesheet" href="../assets/vendor/icon-set/style.css">
 
   <!-- CSS Front Template -->
-  <!-- bundlecss:theme [@@autopath] @@vars.version -->
-  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  <link rel="stylesheet" href="../assets/css/theme.min.css">
 </head>
 <body class="bg-light">
   <!-- ========== MAIN CONTENT ========== -->
@@ -34,13 +32,135 @@
             <div class="row align-items-center flex-grow-1">
               <div class="col">
                 <!-- Logo -->
-                @@include("@@autopath/partials/layouts-components/navbar-single-logo-light.html")
+                <a class="navbar-brand" href="../index.html" aria-label="Front">
+                  <img class="navbar-brand-logo" src="../assets/svg/logos/logo-white.svg" alt="Logo">
+                </a>
                 <!-- End Logo -->
               </div>
 
               <div class="col-auto">
                 <!-- Account -->
-                @@include("@@autopath/partials/layouts-components/dropdown-user.html")
+                <div class="hs-unfold">
+                  <a class="js-hs-unfold-invoker navbar-dropdown-account-wrapper" href="javascript:;"
+                     data-hs-unfold-options='{
+                       "target": "#accountNavbarDropdown",
+                       "type": "css-animation"
+                     }'>
+                    <div class="avatar avatar-sm avatar-circle">
+                      <img class="avatar-img" src="../assets/img/160x160/img6.jpg" alt="Image Description">
+                      <span class="avatar-status avatar-sm-status avatar-status-success"></span>
+                    </div>
+                  </a>
+
+                  <div id="accountNavbarDropdown" class="hs-unfold-content dropdown-unfold dropdown-menu dropdown-menu-right navbar-dropdown-menu navbar-dropdown-account" style="width: 16rem;">
+                    <div class="dropdown-item">
+                      <div class="media align-items-center">
+                        <div class="avatar avatar-sm avatar-circle mr-2">
+                          <img class="avatar-img" src="../assets/img/160x160/img6.jpg" alt="Image Description">
+                        </div>
+                        <div class="media-body">
+                          <span class="card-title h5">Mark Williams</span>
+                          <span class="card-text">mark@example.com</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="dropdown-divider"></div>
+
+                    <!-- Unfold -->
+                    <div class="hs-unfold w-100">
+                      <a class="js-hs-unfold-invoker navbar-dropdown-submenu-item dropdown-item d-flex align-items-center" href="javascript:;"
+                         data-hs-unfold-options='{
+                           "target": "#navSubmenuPagesAccountDropdown1",
+                           "event": "hover"
+                         }'>
+                        <span class="text-truncate pr-2" title="Set status">Set status</span>
+                        <i class="tio-chevron-right navbar-dropdown-submenu-item-invoker ml-auto"></i>
+                      </a>
+
+                      <div id="navSubmenuPagesAccountDropdown1" class="hs-unfold-content hs-unfold-has-submenu dropdown-unfold dropdown-menu navbar-dropdown-sub-menu">
+                        <a class="dropdown-item" href="#">
+                          <span class="legend-indicator bg-success mr-1"></span>
+                          <span class="text-truncate pr-2" title="Available">Available</span>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          <span class="legend-indicator bg-danger mr-1"></span>
+                          <span class="text-truncate pr-2" title="Busy">Busy</span>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          <span class="legend-indicator bg-warning mr-1"></span>
+                          <span class="text-truncate pr-2" title="Away">Away</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">
+                          <span class="text-truncate pr-2" title="Reset status">Reset status</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- End Unfold -->
+
+                    <a class="dropdown-item" href="#">
+                      <span class="text-truncate pr-2" title="Profile &amp; account">Profile &amp; account</span>
+                    </a>
+
+                    <a class="dropdown-item" href="#">
+                      <span class="text-truncate pr-2" title="Settings">Settings</span>
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="#">
+                      <div class="media align-items-center">
+                        <div class="avatar avatar-sm avatar-dark avatar-circle mr-2">
+                          <span class="avatar-initials">HS</span>
+                        </div>
+                        <div class="media-body">
+                          <span class="card-title h5">Htmlstream <span class="badge badge-primary badge-pill text-uppercase ml-1">PRO</span></span>
+                          <span class="card-text">hs.example.com</span>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <!-- Unfold -->
+                    <div class="hs-unfold w-100">
+                      <a class="js-hs-unfold-invoker navbar-dropdown-submenu-item dropdown-item d-flex align-items-center" href="javascript:;"
+                         data-hs-unfold-options='{
+                           "target": "#navSubmenuPagesAccountDropdown2",
+                           "event": "hover"
+                         }'>
+                        <span class="text-truncate pr-2" title="Customization">Customization</span>
+                        <i class="tio-chevron-right navbar-dropdown-submenu-item-invoker  ml-auto"></i>
+                      </a>
+
+                      <div id="navSubmenuPagesAccountDropdown2" class="hs-unfold-content hs-unfold-has-submenu dropdown-unfold dropdown-menu navbar-dropdown-sub-menu">
+                        <a class="dropdown-item" href="#">
+                          <span class="text-truncate pr-2" title="Invite people">Invite people</span>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          <span class="text-truncate pr-2" title="Analytics">Analytics</span>
+                          <i class="tio-open-in-new"></i>
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          <span class="text-truncate pr-2" title="Customize Front">Customize Front</span>
+                          <i class="tio-open-in-new"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- End Unfold -->
+
+                    <a class="dropdown-item" href="#">
+                      <span class="text-truncate pr-2" title="Manage team">Manage team</span>
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="#">
+                      <span class="text-truncate pr-2" title="Sign out">Sign out</span>
+                    </a>
+                  </div>
+                </div>
                 <!-- End Account -->
               </div>
             </div>
@@ -57,7 +177,7 @@
       <!-- Card -->
       <div class="card mb-3 mb-lg-5">
         <div class="card-body card-body-centered py-10 my-lg-10">
-          <img class="img-fluid shadow-soft mb-5" src="@@autopath/assets/svg/layouts/content-combinations-container-overlay.svg" alt="Image Description" style="max-width: 15rem;">
+          <img class="img-fluid shadow-soft mb-5" src="../assets/svg/layouts/content-combinations-container-overlay.svg" alt="Image Description" style="max-width: 15rem;">
 
           <h1>Overlay Container - Content Combinations</h1>
           <p>Customize your overview page layout. Choose the one that best fits your needs.</p>
@@ -69,9 +189,9 @@
       <!-- Card -->
       <div class="card">
         <div class="card-body card-body-centered py-10">
-          <img class="avatar avatar-xl mb-3" src="@@autopath/assets/svg/illustrations/yelling.svg" alt="Image Description">
+          <img class="avatar avatar-xl mb-3" src="../assets/svg/illustrations/yelling.svg" alt="Image Description">
           <p class="card-text">No data to show</p>
-          <a class="btn btn-sm btn-white" href="@@autopath/index.html">Get Started</a>
+          <a class="btn btn-sm btn-white" href="../index.html">Get Started</a>
         </div>
       </div>
       <!-- End Card -->
@@ -80,18 +200,16 @@
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
-  <!-- JS Global Compulsory @@deleteLine:build -->
-  <script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS Global Compulsory  -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <!-- bundlejs:vendor [@@autopath] -->
-  <script src="@@autopath/assets/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
+  <script src="../assets/vendor/hs-unfold/dist/hs-unfold.min.js"></script>
 
   <!-- JS Front -->
-  <!-- bundlejs:theme [@@autopath] -->
-  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -105,7 +223,7 @@
 
   <!-- IE Support -->
   <script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/assets/vendor/babel-polyfill/polyfill.min.js"><\/script>');
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="../assets/vendor/babel-polyfill/polyfill.min.js"><\/script>');
   </script>
 </body>
 </html>
