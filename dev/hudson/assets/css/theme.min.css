@@ -28300,7 +28300,6 @@ body {
 .navbar .nav-link.show,
 .navbar .show > .nav-link {
     color: #000000 !important;
-    font-size: 110% !important;
     font-weight: 600 !important;
 }
 
@@ -28311,4 +28310,5 @@ body {
 .navbar-vertical .navbar-nav.nav-tabs .active .nav-link,
 .navbar-vertical .navbar-nav.nav-tabs .active.nav-link {
     border-left-color: #000000 !important;
+    background: #fcfcfc !important;
 }
