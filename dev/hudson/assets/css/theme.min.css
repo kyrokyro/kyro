@@ -28309,7 +28309,7 @@ body {
 
 .navbar-vertical .navbar-nav.nav-tabs .active .nav-link,
 .navbar-vertical .navbar-nav.nav-tabs .active.nav-link {
-    border-left-color: #000000 !important;
+    border-left-color: #fff !important;
 }
 
 .card {
