@@ -28312,3 +28312,7 @@ body {
     border-left-color: #000000 !important;
     background: #fcfcfc !important;
 }
+
+.card {
+    box-shadow: 0px 4px 0px 0px rgba(140, 152, 164, .075) !important;
+}
