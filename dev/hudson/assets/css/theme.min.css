@@ -28288,3 +28288,17 @@ a:hover .text-hover-primary {
 body {
     background: #FCFCFC !important;
 }
+
+.navbar-vertical .active .nav-indicator-icon,
+.navbar-vertical .nav-link:hover .nav-indicator-icon,
+.navbar-vertical .show > .nav-link > .nav-indicator-icon {
+    color: #000000;
+}
+
+.navbar .active > .nav-link,
+.navbar .nav-link.active,
+.navbar .nav-link.show,
+.navbar .show > .nav-link {
+    color: #000000;
+    font-size: 125%;
+}
