@@ -28317,5 +28317,5 @@ body {
 }
 
 .card-hover-shadow:hover {
-    0px 4px 0px 0px rgba(0, 0, 0, 0.1) !important
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1) !important
 }
