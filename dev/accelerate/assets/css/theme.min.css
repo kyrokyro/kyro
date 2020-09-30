@@ -28289,6 +28289,10 @@ body {
     background: #fcfcfc !important;
 }
 
+.navbar-dark {
+    background-color: #01A3A4 !important;
+}
+
 .navbar-vertical .active .nav-indicator-icon,
 .navbar-vertical .nav-link:hover .nav-indicator-icon,
 .navbar-vertical .show > .nav-link > .nav-indicator-icon {
@@ -28311,6 +28315,7 @@ body {
 .navbar-vertical .navbar-nav.nav-tabs .active.nav-link {
     border-left-color: #fff !important;
 }
+
 .card {
     box-shadow: 0px 3px 0px 0px rgba(140, 152, 164, .075) !important;
 }
