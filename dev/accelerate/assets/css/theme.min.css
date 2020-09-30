@@ -28290,6 +28290,10 @@ body {
     background: #fcfcfc !important;
 }
 
+.bg-light {
+    background-color: #fcfcf9 !important;
+}
+
 .navbar-dark {
     background-color: #01A3A4 !important;
 }
