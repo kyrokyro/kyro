@@ -28345,3 +28345,15 @@ body {
     color: #fff;
     border-color: rgba(255, 255, 255, .1);
 }
+
+
+element.style {}
+
+.notification-alerter {
+    height: 9px !important;
+    width: 9px !important;
+    border: 0 !important;
+    background-color: #fa613f !important;
+    top: 0 !important;
+    right: 0 !important;
+}
