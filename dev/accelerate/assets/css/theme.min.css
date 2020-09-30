@@ -28295,7 +28295,8 @@ body {
 }
 
 .navbar-dark {
-    background-color: #01A3A4 !important;
+    background: rgb(1, 163, 164) !important;
+    background: linear-gradient(90deg, rgba(1, 163, 164, 1) 0%, rgba(56, 28, 94, 1) 65%) !important;
 }
 
 .navbar-vertical .active .nav-indicator-icon,
