@@ -28347,8 +28347,6 @@ body {
 }
 
 
-element.style {}
-
 .notification-alerter {
     height: 9px !important;
     width: 9px !important;
@@ -28356,4 +28354,8 @@ element.style {}
     background-color: #fa613f !important;
     top: 0 !important;
     right: 0 !important;
+}
+
+.tio-search {
+    color: #e6e6e6 !important;
 }
