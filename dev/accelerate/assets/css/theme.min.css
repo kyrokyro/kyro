@@ -28335,3 +28335,8 @@ body {
 .step .active.is-valid .step-title {
     color: #132144;
 }
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: rgba(255, 255, 255, .1);
+}
