@@ -28324,3 +28324,14 @@ body {
 .card-hover-shadow:hover {
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05) !important
 }
+
+.step .active .step-icon,
+.step .active.is-valid .step-icon {
+    color: #fff;
+    background-color: #132144;
+}
+
+.step .active .step-title,
+.step .active.is-valid .step-title {
+    color: #132144;
+}
