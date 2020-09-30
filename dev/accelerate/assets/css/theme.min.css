@@ -28296,7 +28296,7 @@ body {
 
 .navbar-dark {
     background: rgb(1, 163, 164) !important;
-    background: linear-gradient(90deg, rgba(1, 163, 164, 1) 0%, rgba(56, 28, 94, 1) 65%) !important;
+    background: linear-gradient(90deg, rgba(1, 163, 164, 1) 0%, rgb(69 0 76) 65%) !important;
 }
 
 .navbar-vertical .active .nav-indicator-icon,
