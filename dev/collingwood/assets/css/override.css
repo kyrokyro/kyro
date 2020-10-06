@@ -1,0 +1,15 @@
+/* Core Classes */
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+/* New Classes */
+
+.colfc-nav-logo {
+    width: 300px;
+}
+
+.colfc-nav-mbmlogo {
+    height: 30px;
+}
