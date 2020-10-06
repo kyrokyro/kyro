@@ -13,3 +13,7 @@
 .colfc-nav-mbmlogo {
     height: 30px;
 }
+
+.min-vh-headervid {
+    min-height: 80vh !important;
+}
