@@ -679,259 +679,114 @@
     <!-- MEMBERSHIPS -->
     <section class="py-12 bg-light">
         <div class="container">
+            <div class="row justify-content-center py-9">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <form class="px-6 py-6 bg-white shadow">
+                        <h2 class="">General Admission</h2>
 
-            <div class="row">
-                <div class="col-12">
+                        <div class="form-group">
 
-                    <!-- Nav -->
-                    <div class="nav nav-tabs nav-overflow justify-content-start justify-content-md-center border-bottom">
-                        <a class="nav-link px-9 active" data-toggle="tab" href="#descriptionTab">
-                            AFL
-                        </a>
-                        <a class="nav-link px-9" data-toggle="tab" href="#sizeTab">
-                            SNL
-                        </a>
-                    </div>
+                            <!-- Label -->
+                            <p class="mb-5">
+                                Access: <strong><span id="sizeCaption1">Home Games</span></strong>
+                            </p>
 
-                    <!-- Content -->
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="descriptionTab">
-                            <div class="row justify-content-center py-9">
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <form class="px-6 py-6 bg-white shadow">
-                                        <h2 class="">General Admission</h2>
-
-                                        <div class="form-group">
-
-                                            <!-- Label -->
-                                            <p class="mb-5">
-                                                Access: <strong><span id="sizeCaption1">Home Games</span></strong>
-                                            </p>
-
-                                            <!-- Radio -->
-                                            <div class="mb-2">
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioOne1" value="Home Games" data-toggle="form-caption" data-target="#sizeCaption1" checked>
-                                                    <label class="custom-control-label" for="sizeRadioOne1">Home Games</label>
-                                                </div>
-
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioThree1" value="Home & Away Games" data-toggle="form-caption" data-target="#sizeCaption1">
-                                                    <label class="custom-control-label" for="sizeRadioThree1">Home &amp; Away Games</label>
-                                                </div>
-
-
-                                            </div>
-
-
-                                            <div class="form-row mb-7">
-                                                <div class="col-12 col-lg-auto">
-
-                                                    <!-- Quantity -->
-                                                    <select class="custom-select btn-lg mb-2">
-                                                        <option value="1" selected>1 Membership</option>
-                                                        <option value="2">2 Memberships</option>
-                                                        <option value="3">3 Memberships</option>
-                                                        <option value="4">4 Memberships</option>
-                                                        <option value="5">5 Memberships</option>
-                                                    </select>
-
-                                                </div>
-                                                <div class="col-12 col-lg">
-
-                                                    <!-- Submit -->
-                                                    <button type="submit" class="btn btn-lg btn-dark mb-2">
-                                                        Join Collingwood FC <i class="fe fe-arrow-right ml-2"></i>
-                                                    </button>
-
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-                                    </form>
+                            <!-- Radio -->
+                            <div class="mb-2">
+                                <div class="custom-control custom-control-inline custom-control-size mb-2">
+                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioOne1" value="Home Games" data-toggle="form-caption" data-target="#sizeCaption1" checked>
+                                    <label class="custom-control-label" for="sizeRadioOne1">Home Games</label>
                                 </div>
 
-
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <form class="px-6 py-6 bg-white shadow">
-                                        <h2 class="">Reserved Seating</h2>
-
-                                        <div class="form-group">
-
-                                            <!-- Label -->
-                                            <p class="mb-5">
-                                                Access: <strong><span id="sizeCaption2">Home Games</span></strong>
-                                            </p>
-
-                                            <!-- Radio -->
-                                            <div class="mb-2">
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioOne2" value="Home Games" data-toggle="form-caption" data-target="#sizeCaption2" checked>
-                                                    <label class="custom-control-label" for="sizeRadioOne2">Home Games</label>
-                                                </div>
-
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioThree2" value="Home & Away Games" data-toggle="form-caption" data-target="#sizeCaption2">
-                                                    <label class="custom-control-label" for="sizeRadioThree2">Home &amp; Away Games</label>
-                                                </div>
+                                <div class="custom-control custom-control-inline custom-control-size mb-2">
+                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioThree1" value="Home & Away Games" data-toggle="form-caption" data-target="#sizeCaption1">
+                                    <label class="custom-control-label" for="sizeRadioThree1">Home &amp; Away Games</label>
+                                </div>
+                            </div>
 
 
-                                            </div>
+                            <div class="form-row mb-7">
+                                <div class="col-12 col-lg-auto">
 
+                                    <!-- Quantity -->
+                                    <select class="custom-select btn-lg mb-2">
+                                        <option value="1" selected>1 Membership</option>
+                                        <option value="2">2 Memberships</option>
+                                        <option value="3">3 Memberships</option>
+                                        <option value="4">4 Memberships</option>
+                                        <option value="5">5 Memberships</option>
+                                    </select>
 
-                                            <div class="form-row mb-7">
-                                                <div class="col-12 col-lg-auto">
+                                </div>
+                                <div class="col-12 col-lg">
 
-                                                    <!-- Quantity -->
-                                                    <select class="custom-select btn-lg mb-2">
-                                                        <option value="1" selected>1 Membership</option>
-                                                        <option value="2">2 Memberships</option>
-                                                        <option value="3">3 Memberships</option>
-                                                        <option value="4">4 Memberships</option>
-                                                        <option value="5">5 Memberships</option>
-                                                    </select>
-
-                                                </div>
-                                                <div class="col-12 col-lg">
-
-                                                    <!-- Submit -->
-                                                    <button type="submit" class="btn btn-lg btn-dark mb-2">
-                                                        Join Collingwood FC <i class="fe fe-arrow-right ml-2"></i>
-                                                    </button>
-
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-                                    </form>
+                                    <!-- Submit -->
+                                    <button type="submit" class="btn btn-lg btn-dark mb-2">
+                                        Join Collingwood FC <i class="fe fe-arrow-right ml-2"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="sizeTab">
-                            <div class="row justify-content-center py-9">
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <form class="px-6 py-6 bg-white shadow">
-                                        <h2 class="">General Admission</h2>
+                    </form>
+                </div>
 
-                                        <div class="form-group">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <form class="px-6 py-6 bg-white shadow">
+                        <h2 class="">Reserved Seating</h2>
 
-                                            <!-- Label -->
-                                            <p class="mb-5">
-                                                Access: <strong><span id="sizeCaption3">Home Games</span></strong>
-                                            </p>
+                        <div class="form-group">
 
-                                            <!-- Radio -->
-                                            <div class="mb-2">
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioOne1" value="Home Games" data-toggle="form-caption" data-target="#sizeCaption3" checked>
-                                                    <label class="custom-control-label" for="sizeRadioOne3">Home Games</label>
-                                                </div>
+                            <!-- Label -->
+                            <p class="mb-5">
+                                Access: <strong><span id="sizeCaption2">Home Games</span></strong>
+                            </p>
 
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioThree3" value="Home & Away Games" data-toggle="form-caption" data-target="#sizeCaption3">
-                                                    <label class="custom-control-label" for="sizeRadioThree3">Home &amp; Away Games</label>
-                                                </div>
+                            <!-- Radio -->
+                            <div class="mb-2">
+                                <div class="custom-control custom-control-inline custom-control-size mb-2">
+                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioOne2" value="Home Games" data-toggle="form-caption" data-target="#sizeCaption2" checked>
+                                    <label class="custom-control-label" for="sizeRadioOne2">Home Games</label>
+                                </div>
 
-
-                                            </div>
-
-
-                                            <div class="form-row mb-7">
-                                                <div class="col-12 col-lg-auto">
-
-                                                    <!-- Quantity -->
-                                                    <select class="custom-select btn-lg mb-2">
-                                                        <option value="1" selected>1 Membership</option>
-                                                        <option value="2">2 Memberships</option>
-                                                        <option value="3">3 Memberships</option>
-                                                        <option value="4">4 Memberships</option>
-                                                        <option value="5">5 Memberships</option>
-                                                    </select>
-
-                                                </div>
-                                                <div class="col-12 col-lg">
-
-                                                    <!-- Submit -->
-                                                    <button type="submit" class="btn btn-lg btn-dark mb-2">
-                                                        Join Collingwood FC <i class="fe fe-arrow-right ml-2"></i>
-                                                    </button>
-
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-                                    </form>
+                                <div class="custom-control custom-control-inline custom-control-size mb-2">
+                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioThree2" value="Home & Away Games" data-toggle="form-caption" data-target="#sizeCaption2">
+                                    <label class="custom-control-label" for="sizeRadioThree2">Home &amp; Away Games</label>
                                 </div>
 
 
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <form class="px-6 py-6 bg-white shadow">
-                                        <h2 class="">Reserved Seating</h2>
-
-                                        <div class="form-group">
-
-                                            <!-- Label -->
-                                            <p class="mb-5">
-                                                Access: <strong><span id="sizeCaption4">Home Games</span></strong>
-                                            </p>
-
-                                            <!-- Radio -->
-                                            <div class="mb-2">
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioOne4" value="Home Games" data-toggle="form-caption" data-target="#sizeCaption4" checked>
-                                                    <label class="custom-control-label" for="sizeRadioOne4">Home Games</label>
-                                                </div>
-
-                                                <div class="custom-control custom-control-inline custom-control-size mb-2">
-                                                    <input type="radio" class="custom-control-input" name="sizeRadio" id="sizeRadioThree4" value="Home & Away Games" data-toggle="form-caption" data-target="#sizeCaption4">
-                                                    <label class="custom-control-label" for="sizeRadioThree4">Home &amp; Away Games</label>
-                                                </div>
-
-
-                                            </div>
-
-
-                                            <div class="form-row mb-7">
-                                                <div class="col-12 col-lg-auto">
-
-                                                    <!-- Quantity -->
-                                                    <select class="custom-select btn-lg mb-2">
-                                                        <option value="1" selected>1 Membership</option>
-                                                        <option value="2">2 Memberships</option>
-                                                        <option value="3">3 Memberships</option>
-                                                        <option value="4">4 Memberships</option>
-                                                        <option value="5">5 Memberships</option>
-                                                    </select>
-
-                                                </div>
-                                                <div class="col-12 col-lg">
-
-                                                    <!-- Submit -->
-                                                    <button type="submit" class="btn btn-lg btn-dark mb-2">
-                                                        Join Collingwood FC <i class="fe fe-arrow-right ml-2"></i>
-                                                    </button>
-
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-                                    </form>
-                                </div>
                             </div>
+
+
+                            <div class="form-row mb-7">
+                                <div class="col-12 col-lg-auto">
+
+                                    <!-- Quantity -->
+                                    <select class="custom-select btn-lg mb-2">
+                                        <option value="1" selected>1 Membership</option>
+                                        <option value="2">2 Memberships</option>
+                                        <option value="3">3 Memberships</option>
+                                        <option value="4">4 Memberships</option>
+                                        <option value="5">5 Memberships</option>
+                                    </select>
+
+                                </div>
+                                <div class="col-12 col-lg">
+
+                                    <!-- Submit -->
+                                    <button type="submit" class="btn btn-lg btn-dark mb-2">
+                                        Join Collingwood FC <i class="fe fe-arrow-right ml-2"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
                         </div>
-
-                    </div>
-
+                    </form>
                 </div>
             </div>
+
 
 
 
