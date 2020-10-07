@@ -4,6 +4,12 @@
     background-color: #000 !important;
 }
 
+.custom-control-img .custom-control-label {
+    width: 130px;
+    opacity: .5;
+    text-align: center;
+}
+
 /* New Classes */
 
 .colfc-nav-logo {
@@ -18,6 +24,15 @@
     min-height: 60vh !important;
 }
 
+.min-vh-headervid-sm {
+    min-height: 10vh !important;
+}
+
 .benefit-icon {
     width: 80px !important;
+}
+
+.check-icon-lg {
+    font-size: 30px;
+    color: #35ae08;
 }
