@@ -23,11 +23,13 @@
     <link rel="stylesheet" href="./assets/css/override.css">
 
 
-    <title>Shopper</title>
+    <title>Membership - Collingwood FC</title>
 
 </head>
 
-<body>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100" style="padding-top: 100px;">
+
 
 
     <!-- Shopping Cart -->
@@ -393,112 +395,163 @@
         </div>
     </div>
 
-
-
     <!-- NAVBAR -->
-    <div class="navbar navbar-topbar navbar-expand-xl navbar-dark bg-dark fixed-top">
-        <div class="container">
+    <div class="fixed-top">
+        <!-- NETWORK NAV -->
+        <div class="navbar navbar-topbar navbar-expand-xl navbar-dark bg-dark">
+            <div class="container">
 
-            <!-- Promo -->
-            <div class="mr-xl-8">
-                <img src="assets/img/logo/collfc-sm.svg" class="colfc-nav-mbmlogo" />
+                <!-- Promo -->
+                <div class="mr-xl-8">
+                    <img src="assets/img/logo/collfc-sm.svg" class="colfc-nav-mbmlogo" />
 
-                <img src="assets/img/logo/mbm.png" class="colfc-nav-mbmlogo" />
-            </div>
+                    <img src="assets/img/logo/mbm.png" class="colfc-nav-mbmlogo" />
+                </div>
 
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topbarCollapse" aria-controls="topbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topbarCollapse" aria-controls="topbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="topbarCollapse">
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="topbarCollapse">
 
-                <!-- Nav -->
-                <ul class="nav nav-divided navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
+                    <!-- Nav -->
+                    <ul class="nav nav-divided navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
 
-                        <!-- Toggle -->
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
-                            <img class="mb-1 mr-1" src="./assets/img/flags/usa.svg" alt="..." /> United States
-                        </a>
-
-                        <!-- Menu -->
-                        <div class="dropdown-menu minw-0">
-                            <a class="dropdown-item" href="#!">
-                                <img class="mb-1 mr-2" src="./assets/img/flags/usa.svg" alt="USA">United States
+                            <!-- Toggle -->
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                                <img class="mb-1 mr-1" src="./assets/img/flags/usa.svg" alt="..." /> United States
                             </a>
-                            <a class="dropdown-item" href="#!">
-                                <img class="mb-1 mr-2" src="./assets/img/flags/canada.svg" alt="Canada">Canada
+
+                            <!-- Menu -->
+                            <div class="dropdown-menu minw-0">
+                                <a class="dropdown-item" href="#!">
+                                    <img class="mb-1 mr-2" src="./assets/img/flags/usa.svg" alt="USA">United States
+                                </a>
+                                <a class="dropdown-item" href="#!">
+                                    <img class="mb-1 mr-2" src="./assets/img/flags/canada.svg" alt="Canada">Canada
+                                </a>
+                                <a class="dropdown-item" href="#!">
+                                    <img class="mb-1 mr-2" src="./assets/img/flags/germany.svg" alt="Germany">Germany
+                                </a>
+                            </div>
+
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <!-- Toggle -->
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">USD</a>
+
+                            <!-- Menu -->
+                            <div class="dropdown-menu minw-0">
+                                <a class="dropdown-item" href="#!">USD</a>
+                                <a class="dropdown-item" href="#!">EUR</a>
+                            </div>
+
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <!-- Toggle -->
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">English</a>
+
+                            <!-- Menu -->
+                            <div class="dropdown-menu minw-0">
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">French</a>
+                                <a class="dropdown-item" href="#">German</a>
+                            </div>
+
+                        </li>
+                    </ul>
+
+                    <!-- Nav -->
+                    <ul class="nav navbar-nav mr-8">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shipping-and-returns.html">Shipping</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact-us.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Nav -->
+                    <ul class="nav navbar-nav flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link text-gray-350" href="#!">
+                                <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="dropdown-item" href="#!">
-                                <img class="mb-1 mr-2" src="./assets/img/flags/germany.svg" alt="Germany">Germany
+                        </li>
+                        <li class="nav-item ml-xl-n4">
+                            <a class="nav-link text-gray-350" href="#!">
+                                <i class="fab fa-twitter"></i>
                             </a>
-                        </div>
+                        </li>
+                        <li class="nav-item ml-xl-n4">
+                            <a class="nav-link text-gray-350" href="#!">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
 
-                    </li>
-                    <li class="nav-item dropdown">
+                    </ul>
 
-                        <!-- Toggle -->
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">USD</a>
-
-                        <!-- Menu -->
-                        <div class="dropdown-menu minw-0">
-                            <a class="dropdown-item" href="#!">USD</a>
-                            <a class="dropdown-item" href="#!">EUR</a>
-                        </div>
-
-                    </li>
-                    <li class="nav-item dropdown">
-
-                        <!-- Toggle -->
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">English</a>
-
-                        <!-- Menu -->
-                        <div class="dropdown-menu minw-0">
-                            <a class="dropdown-item" href="#">English</a>
-                            <a class="dropdown-item" href="#">French</a>
-                            <a class="dropdown-item" href="#">German</a>
-                        </div>
-
-                    </li>
-                </ul>
-
-                <!-- Nav -->
-                <ul class="nav navbar-nav mr-8">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./shipping-and-returns.html">Shipping</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./faq.html">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact-us.html">Contact</a>
-                    </li>
-                </ul>
-
-                <!-- Nav -->
-                <ul class="nav navbar-nav flex-row">
-                    <li class="nav-item">
-                        <a class="nav-link text-gray-350" href="#!">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item ml-xl-n4">
-                        <a class="nav-link text-gray-350" href="#!">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item ml-xl-n4">
-                        <a class="nav-link text-gray-350" href="#!">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-
-                </ul>
-
+                </div>
             </div>
         </div>
+
+        <!-- SITE NAV -->
+        <nav class="navbar navbar-expand-xl navbar-light bg-white py-2">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="./overview.html">
+                    Collingwood Membership
+                </a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLandingCollapse" aria-controls="navbarLandingCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="navbarLandingCollapse">
+
+                    <!-- Nav -->
+                    <ul class="navbar-nav ml-xl-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-toggle="smooth-scroll">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="smooth-scroll">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="smooth-scroll">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="smooth-scroll">Links</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Nav -->
+                    <ul class="navbar-nav ml-xl-4">
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" href="#modalShoppingCart">
+                                <span data-cart-items="2">
+                                    <i class="fe fe-shopping-cart"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
     </div>
     <!-- WELCOME -->
     <section class="jarallax" data-jarallax data-speed=".8" data-jarallax-video="mp4:assets/video/header-vid.mp4">
@@ -512,7 +565,7 @@
                     </h1>
 
                     <!-- Links -->
-                    <a class="btn btn-lg btn-white my-5" href="#get-started">Get Started <i class="fe fe-arrow-down ml-2"></i></a>
+                    <a class="btn btn-lg btn-white my-5" href="#get-started" data-toggle="smooth-scroll">Get Started <i class="fe fe-arrow-down ml-2"></i></a>
 
                 </div>
             </div>
@@ -1466,4 +1519,6 @@
     <script src="./assets/js/theme.min.js"></script>
 
 
-</body></html>
+</body>
+
+</html>
