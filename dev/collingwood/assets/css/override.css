@@ -36,3 +36,7 @@
     font-size: 30px;
     color: #35ae08;
 }
+
+.appstore-icon {
+    max-width: 180px;
+}
