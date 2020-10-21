@@ -11,6 +11,9 @@
 }
 
 /* New Classes */
+.body-padding {
+    padding-top: 45px;
+}
 
 .colfc-nav-logo {
     width: 300px;
