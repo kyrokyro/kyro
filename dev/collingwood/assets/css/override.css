@@ -46,3 +46,9 @@
     background: #877851 !important;
     font-size: 120% !important;
 }
+.package-select-link {
+    opacity: 0.5;
+}
+.active {
+    opacity: 1 !important;
+}
