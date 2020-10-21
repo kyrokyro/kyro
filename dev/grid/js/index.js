@@ -1,7 +1,4 @@
-import {
-    preloadImages,
-    preloadFonts
-} from './utils';
+import { preloadImages, preloadFonts } from './utils';
 import LocomotiveScroll from 'locomotive-scroll';
 
 const backtopEl = document.querySelector('.backtop');

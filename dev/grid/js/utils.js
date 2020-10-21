@@ -3,9 +3,7 @@ const imagesLoaded = require('imagesloaded');
 // Preload images
 const preloadImages = (selector = 'img') => {
     return new Promise((resolve) => {
-        imagesLoaded(document.querySelectorAll(selector), {
-            background: true
-        }, resolve);
+        imagesLoaded(document.querySelectorAll(selector), {background: true}, resolve);
     });
 };
 
@@ -21,7 +19,7 @@ const preloadFonts = (id) => {
     });
 };
 
-export {
-    preloadImages,
-    preloadFonts
+export { 
+    preloadImages, 
+    preloadFonts 
 };
