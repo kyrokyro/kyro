@@ -4,9 +4,7 @@
     background-color: #000 !important;
 }
 
-.bg-silver {
-    background-color: #262626 !important;
-}
+
 
 .custom-control-img .custom-control-label {
     width: 130px;
@@ -17,6 +15,15 @@
 /* New Classes */
 .body-padding {
     padding-top: 45px;
+}
+
+.bg-silver {
+    background-color: #262626 !important;
+}
+
+.benefit-bg-dark {
+    background: #353535 !important;
+    border: 0 !important;
 }
 
 .colfc-nav-logo {
