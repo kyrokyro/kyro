@@ -54,6 +54,10 @@
     border-bottom: 1px solid #282828 !important;
 }
 
+.package-select-title-lg {
+    font-size: 130% !important;
+}
+
 .package-select-link {
     opacity: 0.5;
 }
