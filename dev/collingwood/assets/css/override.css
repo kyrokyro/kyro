@@ -4,6 +4,10 @@
     background-color: #000 !important;
 }
 
+.bg-silver {
+    background-color: #262626 !important;
+}
+
 .custom-control-img .custom-control-label {
     width: 130px;
     opacity: .5;
