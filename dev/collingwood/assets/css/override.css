@@ -104,3 +104,5 @@ a.text-gold:focus,
 a.text-gold:hover {
     color: #877851 !important
 }
+
+.card > .card-body > h6 {}
