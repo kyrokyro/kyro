@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    
+    <!-- Page Meta -->
+    <title>Hello, we&#x27;re Croo - A Wellness App - #MyCroo</title>
+    <meta name="description" content="Croo is a safe and secure app that monitors a person’s mental wellness and notifies trusted family and friends when their wellness signal appears vulnerable">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Social Meta -->
+    <link rel="canonical" href="https://croo.co/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hello, we&#x27;re Croo - A Wellness App" />
+    <meta property="og:description" content="Croo is a safe and secure app that monitors a person’s mental wellness and notifies trusted family and friends when their wellness signal appears vulnerable" />
+    <meta property="og:url" content="https://croo.co/" />
+    <meta property="og:site_name" content="Hello, we&#x27;re Croo - A Wellness App" />
+    <meta property="og:image" content="https://croo.co/assets/images/covers/croo-cover-5.png" />
+    <meta property="og:image:secure_url" content="https://croo.co/assets/images/covers/croo-cover-5.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Croo is a safe and secure app that monitors a person’s mental wellness and notifies trusted family and friends when their wellness signal appears vulnerable" />
+    <meta name="twitter:title" content="Hello, we&#x27;re Croo - A Wellness App" />
+    <meta name="twitter:image" content="https://croo.co/assets/images/covers/croo-cover-5.png" />
+    <meta name="twitter:creator" content="@crooapp" />
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicons/site.webmanifest">
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WT3NGZYNM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+    
+        gtag('config', 'G-6WT3NGZYNM');
+    
+    </script>
+</head>
+
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+        <div class="container">
+            <a href="." class="navbar-brand"><img src="./assets/images/logo/logo-light.svg" alt="Croo Logo"></a>
+            <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+                <!-- <li class="nav-item">
+                    <a href="./share/" class="btn btn-sm rounded-pill btn-light">
+                        Share Kit &#128075;
+                    </a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasNav" role="button" aria-controls="offcanvasNav">
+                        <span class="bi bi-list"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavLabel">
+                <script>
+                    var myDate = new Date();
+                    var hrs = myDate.getHours();
+    
+                    var greet;
+    
+                    if (hrs < 12)
+                        greet = 'Good Morning';
+                    else if (hrs >= 12 && hrs <= 17)
+                        greet = 'Good Afternoon';
+                    else if (hrs >= 17 && hrs <= 24)
+                        greet = 'Good Evening';
+    
+                    document.getElementById('offcanvasNavLabel').innerHTML = greet;
+    
+                </script>
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav nav-minimal" id="toc-nav">
+                <li class="nav-item">
+                    <a class="nav-link fs-4" href=".">Home</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link fs-4" href="./team-mission/">Team &amp; Mission</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link fs-4" href="./helplines/">Support Helplines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4" href="./faqs/">FAQs</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link fs-4" href="./partnerships/">Partnerships</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link fs-4" href="./contact/">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4" href="./feedback/">Feedback</a>
+                </li>
+            </ul>
+        </div>
+        <div class="offcanvas-footer">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/TheCrooApp" class="text-black"><i class="bi bi-facebook fs-lg"></i></a></li>
+                <li class="list-inline-item ms-1"><a href="https://www.instagram.com/crooapp/" class="text-black"><i class="bi bi-instagram fs-lg"></i></a></li>
+                <li class="list-inline-item ms-1"><a href="https://twitter.com/crooapp" class="text-black"><i class="bi bi-twitter fs-lg"></i></a></li>
+                <li class="list-inline-item ms-1"><a href="https://www.youtube.com/channel/UCho3xOrl8konJ73pWbyzxEw" class="text-secondary"><i class="bi bi-youtube fs-lg"></i></a></li>
+                <li class="list-inline-item ms-1"><a href="https://www.linkedin.com/company/crooapp/about/" class="text-black"><i class="bi bi-linkedin fs-lg"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <section class="overflow-hidden inverted">
+        <div class="py-20 d-flex flex-column container min-vh-75 foreground">
+            <div class="row align-items-center justify-content-center justify-content-lg-between my-auto">
+                <div class="col-lg-6 col-xl-5 text-lg-start foreground mb-10 mb-lg-0">
+                    <h1 class="display-1 font-brand">Together<br />is Better</h1>
+                    <h4 class="my-4 fw-light">Monitor your mental wellness and the wellness of those you love and trust the most with Croo</h4>
+
+                    <div class="row g-1">
+                        <div class="col-auto">
+                            <a href="" class="btn btn-yellow rounded-pill" data-bs-toggle="modal" data-bs-target="#modal-appstore">
+                                <img src="./assets/images/logo/appstore-green.svg" alt="Download Croo on the Apple App Store">
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="" class="btn btn-yellow rounded-pill" data-bs-toggle="modal" data-bs-target="#modal-appstore">
+                                <img src="./assets/images/logo/googleplay-green.svg" alt="Download Croo on Google Play">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- App Store Reviews
+                    <!-- 
+                    <div class="d-inline-flex align-items-center mt-3">
+                        <span class="fs-2 me-2 lh-1 fw-bold">5.0</span>
+                        <ul class="rating text-orange me-3 fs-5">
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                            <li><i class="bi bi-star-fill"></i></li>
+                        </ul>
+                    </div>
+                    <small class="d-block text-muted">Based on 9 combined reviews.</small>
+                    -->
+                </div>
+            </div>
+        </div>
+        <!-- Image Background -->
+        <figure class="background background-overlay" style="background-image: url('./assets/images/backgrounds/2.webp')" data-top-top="transform: translateY(0%);" data-top-bottom="transform: translateY(0%);"></figure>
+        <!-- Video Background -->
+        <div class="background background-overlay d-none d-lg-block">
+            <video data-video playsinline autoplay muted loop>
+                <source src="./assets/video/video-home-11.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <span class="scroll-down"></span>
+    </section>
+
+    <!-- Section -->
+    <section class="pt-10 bg-yellow">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xl-9">
+                    <span class="eyebrow text-red mb-2">What is croo?</span>
+                    <h3 class="fw-light mb-4">Croo is a safe and secure app that monitors a person’s mental wellness and notifies trusted family and friends (their <span class="">'croo'</span>) when their <a href="" class="text-green underline" data-bs-toggle="modal" data-bs-target="#modal-wellness-signal">'wellness signal'</a> appears vulnerable
+                    </h3>
+                    <!--
+                    <div class="d-inline-flex align-items-center p-1 rounded-pill pe-3 bg-light">
+                        <a class="btn btn-red text-white btn-icon rounded-pill me-2" data-bp='{"ytSrc": "rrZESY3fPJs"}'><i class="bi bi-play-fill fs-5"></i></a>
+                        <span><span class="fw-light">Croo Explained</span> &mdash; <strong>30 seconds</strong></span>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pb-10 bg-yellow">
+        <div class="container">
+            <div class="row align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-md-10 col-lg-7 mb-5 mb-lg-0">
+                    <h3 class="font-brand">Features at a glance:</h3>
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-minimal">
+                                <li class="list-group-item d-flex align-items-center mb-1">
+                                    <div class="icon-box icon-box-sm bg-opaque-primary rounded-circle me-2"><i class="bi bi-check2 text-primary"></i>
+                                    </div>
+                                    <span class="lead">Daily Wellness Questionnaire</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center mb-1">
+                                    <div class="icon-box icon-box-sm bg-opaque-primary rounded-circle me-2"><i class="bi bi-check2 text-primary"></i>
+                                    </div>
+                                    <span class="lead">Wellness Tracking &amp; Insights</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center">
+                                    <div class="icon-box icon-box-sm bg-opaque-primary rounded-circle me-2"><i class="bi bi-check2 text-primary"></i>
+                                    </div>
+                                    <span class="lead">Private &amp; Secure Group Chat</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-minimal">
+                                <li class="list-group-item d-flex align-items-center mb-1">
+                                    <div class="icon-box icon-box-sm bg-opaque-primary rounded-circle me-2"><i class="bi bi-check2 text-primary"></i>
+                                    </div>
+                                    <span class="lead">Experiences &amp; Gifts</span> <span class="badge bg-primary rounded-pill ms-2">New</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center mb-1">
+                                    <div class="icon-box icon-box-sm bg-opaque-primary rounded-circle me-2"><i class="bi bi-check2 text-primary"></i>
+                                    </div>
+                                    <span class="lead">Share Inspirational Quotes</span>
+                                </li>
+                                <li class="list-group-item d-flex align-items-center">
+                                    <div class="icon-box icon-box-sm bg-opaque-primary rounded-circle me-2"><i class="bi bi-check2 text-primary"></i>
+                                    </div>
+                                    <span class="lead">Personalised Daily Affirmations</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-lg-5 position-relative d-none d-sm-block">
+                    <div class="equal-1-1 rounded-circle">
+                        <figure class="background" style="background-image: url('./assets/images/backgrounds/hero-secondary.webp')"></figure>
+                    </div>
+                    <img class="position-absolute top-0 start-0" src="./assets/images/svg/wellness-signal.svg" alt="" data-aos="fade-up">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="pb-10 overflow-hidden bg-yellow">
+        <img class="position-absolute top-100 start-30 translate-middle" src="./assets/images/svg/shadow.svg" alt="">
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-between ">
+                <div class="col-lg-6 order-lg-2 mb-5">
+                    <span class="eyebrow text-red mb-2">Personal Insights</span>
+                    <h3 class="mb-6 font-brand">Croo asks the right questions at the right time</h3>
+                    <ul class="list-group list-group-minimal">
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2"><i class="bi bi-calendar2-day fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">We'll ask you and your croo four daily questions to determine everyone's wellness signal.</p>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2"><i class="bi bi-graph-up fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">You can track your own wellness signal over time and gain insights on areas you could improve.</p>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2"><i class="bi bi-people fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">We'll nudge you to check in on members of your croo who might be having a difficult time.</p>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2"><i class="bi bi-lightbulb fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">Our smart algorithm (YANA) asks you better wellness questions every day - based on your responses to previous questions.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="card equal-2-1 equal-lg-1-1 overflow-visible">
+                        <div class="card-wrap">
+                            <img class="img-fluid" src="./assets/images/previews/phone-10.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="py-10 bg-light overflow-hidden">
+        <img class="position-absolute top-100 start-50 translate-middle" src="./assets/images/svg/shadow.svg" alt="">
+        <div class="container foreground min-vh-25">
+            <div class="row justify-content-center mb-8">
+                <div class="col text-center">
+                    <span class="eyebrow text-light mb-2 text-red">Introducing 'croos'</span>
+                    <h3 class="font-brand">Reaching out, made easy</h3>
+                </div>
+            </div>
+            <div class="row g-5 justify-content-center justify-content-lg-between align-items-center">
+                <div class="col-lg-4 order-lg-1">
+                    <ul class="list-unstyled text-center text-lg-end pe-lg-5">
+                        <li class="d-flex align-items-center my-3">
+                            <p class="lead">Easily create a croo with your closest family and friends.</p>
+                            <div class="icon-box icon-box-sm mx-2"><i class="bi bi-person-plus fs-4 text-red"></i>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center my-3">
+                            <p class="lead">We'll check-in with everyone using our intuitive daily questionnaire to update everyone's wellness signal.</p>
+                            <div class="icon-box icon-box-sm mx-2"><i class="bi bi-sun fs-4 text-red"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 order-lg-3">
+                    <ul class="list-unstyled text-center text-lg-start ps-lg-5">
+                        <li class="d-flex align-items-center my-3">
+                            <div class="icon-box icon-box-sm mx-2"><i class="bi bi-heart fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">Share your wellness signal with your croo, and we'll nudge you when a loved one is having a rough day.</p>
+                        </li>
+                        <li class="d-flex align-items-center my-3">
+                            <div class="icon-box icon-box-sm mx-2"><i class="bi bi-chat-quote fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">With simple ice-breakers and conversation starters to make those tricky conversations easier to get into.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 order-lg-2">
+                    <div class="card equal-2-1 equal-lg-1-1 overflow-visible">
+                        <div class="card-wrap">
+                            <img class="img-fluid" src="./assets/images/previews/phone-7.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="overflow-hidden inverted">
+        <div class="py-10 d-flex flex-column min-vh-75 container">
+            <div class="row align-items-center justify-content-center justify-content-lg-between my-auto">
+                <div class="col-lg-6 col-xl-5 text-lg-start foreground mb-10 mb-lg-0">
+                    <h1 class="display-1 font-brand">Together<br />is Better</h1>
+                    <h4 class="my-4">Download the Croo App today and gain a powerful ally on your wellness journey</h4>
+
+                    <div class="row g-1">
+                        <div class="col-auto">
+                            <a href="" class="btn btn-red rounded-pill" data-bs-toggle="modal" data-bs-target="#modal-appstore">
+                                <img src="./assets/images/logo/appstore.svg" alt="Download Croo on the Apple App Store">
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="" class="btn btn-red rounded-pill" data-bs-toggle="modal" data-bs-target="#modal-appstore">
+                                <img src="./assets/images/logo/googleplay.svg" alt="Download Croo on Google Play">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Image Background -->
+        <figure class="background background-overlay" style="background-image: url('./assets/images/backgrounds/13.webp')" data-top-top="transform: translateY(0%);" data-top-bottom="transform: translateY(0%);"></figure>
+    </section>
+
+    <!-- Section -->
+    <section class="py-10 overflow-hidden bg-light ">
+        <img class="position-absolute top-100 start-70 translate-middle" src="./assets/images/svg/shadow.svg" alt="">
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-between ">
+
+                <div class="col-lg-5 order-lg-1 mb-5 mb-lg-0">
+                    <span class="eyebrow text-red mb-2">Experiences &amp; Gifts</span>
+                    <h3 class="mb-5 font-brand">Enjoy real world experiences together, or surprise someone with a thoughtful gift</h3>
+                    <ul class="list-group list-group-minimal">
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2 text-red"><i class="bi bi-geo-alt fs-4"></i>
+                            </div>
+                            <p class="lead">Explore &amp; suggest fun experiences to your loved ones or close friends, together or as an individual adventure!</p>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2 text-red"><i class="bi bi-stars fs-4"></i>
+                            </div>
+                            <p class="lead">Send anyone in your circles a fun little treat, and put a smile on their face when distance and social-distancing get in the way.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-7 order-lg-2">
+                    <div class="card equal-2-1 equal-lg-2-1 overflow-visible">
+                        <div class="card-wrap">
+                            <img class="img-fluid" src="./assets/images/previews/phone-8.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="py-10 overflow-hidden bg-yellow">
+        <img class="position-absolute top-100 start-30 translate-middle" src="./assets/images/svg/shadow.svg" alt="">
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-between ">
+                <div class="col-lg-6 order-lg-2 mb-5">
+                    <span class="eyebrow text-red mb-2">Inspire &amp; Uplift</span>
+                    <h3 class="mb-6 font-brand">Send uplifting quotes &amp; receive personalised daily affirmations</h3>
+                    <ul class="list-group list-group-minimal">
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2"><i class="bi bi-chat-square-quote fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">A huge library of uplifting, shareable quotes &amp; affirmations.</p>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2"><i class="bi bi-envelope-open fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">Easily share with your partner, friends &amp; family.</p>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <div class="icon-box icon-box-sm me-2"><i class="bi bi-brightness-alt-high fs-4 text-red"></i>
+                            </div>
+                            <p class="lead">We'll send you the right affirmation after completing each daily wellness questionnaire - based on your answers.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="card equal-2-1 equal-lg-2-1 overflow-visible">
+                        <div class="card-wrap">
+                            <img class="img-fluid" src="./assets/images/previews/phone-11.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-15 bg-light">
+        <div class="container">
+            <div class="row mb-10">
+                <div class="col-md-6 mb-5">
+                    <a href="./" class="navbar-brand"><img src="./assets/images/logo/logo-green.svg" alt="Croo Logo"></a>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="" class="btn rounded-pill btn-secondary mb-1 " data-bs-toggle="modal" data-bs-target="#modal-appstore">
+                        <img src="./assets/images/logo/appstore.svg" alt="Download Croo on the Apple App Store">
+                    </a>
+    
+                    <a href="" class="btn rounded-pill btn-secondary mb-1 " data-bs-toggle="modal" data-bs-target="#modal-appstore">
+                        <img src="./assets/images/logo/googleplay.svg" alt="Download Croo on Google Play">
+                    </a>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-md-end order-lg-3">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/TheCrooApp" class="text-secondary"><i class="bi bi-facebook fs-lg"></i></a></li>
+                        <li class="list-inline-item ms-1"><a href="https://www.instagram.com/crooapp/" class="text-secondary"><i class="bi bi-instagram fs-lg"></i></a></li>
+                        <li class="list-inline-item ms-1"><a href="https://twitter.com/crooapp" class="text-secondary"><i class="bi bi-twitter fs-lg"></i></a></li>
+                        <li class="list-inline-item ms-1"><a href="https://www.youtube.com/channel/UCho3xOrl8konJ73pWbyzxEw" class="text-secondary"><i class="bi bi-youtube fs-lg"></i></a></li>
+                        <li class="list-inline-item ms-1"><a href="https://www.linkedin.com/company/crooapp/about/" class="text-secondary"><i class="bi bi-linkedin fs-lg"></i></a></li>
+                    </ul>
+    
+                    <h5 class="fs-20"><a href="./contact/" class="action underline">Get in touch with us <i class="bi bi-arrow-right"></i></a></h5>
+    
+                    <ul class="list-inline small">
+                        <li class="list-inline-item"><a href="./terms/" class="text-reset text-primary-hover">Terms &amp; Conditions</a></li>
+                        <li class="list-inline-item ms-1"><a href="./privacy/" class="text-reset text-primary-hover">Privacy Policy</a></li>
+                        <li class="list-inline-item ms-1"><a href="./faqs/" class="text-reset text-primary-hover">FAQs</a></li>
+                        <li class="list-inline-item ms-1"><a href="./partnerships/" class="text-reset text-primary-hover">Partnerships</a></li>
+                        <li class="list-inline-item ms-1"><a href="./feedback/" class="text-reset text-primary-hover">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modals -->
+      <div class="modal fade" id="modal-appstore" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content rounded-3">
+                  <button type="button" class="bi bi-x modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-body p-8 text-center">
+                      <h3 class="fw-light text-primary">Croo is not yet<br />publicly available</h3>
+                      <p class="lead">We're on target to launch in <strong>November 2021</strong></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <div class="modal fade" id="modal-wellness-signal" tabindex="-1" aria-labelledby="modalLabel-2" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="bi bi-x modal-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="row g-0">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="modal-body p-8">
+                            <h3 class="fw-light text-primary">What is a wellness signal?</h3>
+                            <p class="lead">A wellness signal is an indicator of how a user’s wellness appears to be tracking based their responses to questions asked in the app.</p>
+                            <p class="lead">Wellness signals range from:</p>
+                            <ul>
+                                <li class="lead">Strong</li>
+                                <li class="lead">Good</li>
+                                <li class="lead">Okay</li>
+                                <li class="lead">Low</li>
+                            </ul>
+                            <p class="lead">Wellness signals are indicators, not a formal diagnosis, and should be treated as such.</p>
+                            <button type="button" class="btn rounded-pill btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 position-relative">
+                        <figure class="background" style="background-image: url('./assets/images/backgrounds/wellness-signal-modal.webp')"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    <script src="./assets/js/index.bundle.js"></script></body>
+
+</html>
